@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Manatee.Trello.ManateeJson</id>
+    <version>1.0.3</version>
+    <title>Manatee.Trello.ManateeJson</title>
+    <authors>gregsdennis</authors>
+    <owners>gregsdennis</owners>
+    <licenseUrl>http://www.apache.org/licenses/LICENSE-2.0.html</licenseUrl>
+    <projectUrl>https://bitbucket.org/gregsdennis/manatee.trello</projectUrl>
+    <iconUrl>https://bytebucket.org/gregsdennis/manatee.trello/wiki/Resources/Manatee-Trello-ManateeJson-Icon.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>A JSON serializer implementation for Manatee.Trello, backed by Manatee..Json.</description>
+    <releaseNotes>Updated to support Manatee.Trello 0.6.5 (Member.OneTimeMessagesDismissed &amp; Member.StarredBoards).</releaseNotes>
+    <copyright />
+    <language>en-US</language>
+    <tags>trello json manatee</tags>
+    <dependencies>
+      <group targetFramework=".NETFramework4.0">
+        <dependency id="Manatee.Json" version="2.0.2" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>

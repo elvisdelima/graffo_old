@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Manatee.Trello.RestSharp</id>
+    <version>1.0.0</version>
+    <title>Manatee.Trello.RestSharp</title>
+    <authors>gregsdennis</authors>
+    <owners>gregsdennis</owners>
+    <licenseUrl>http://www.apache.org/licenses/LICENSE-2.0.html</licenseUrl>
+    <projectUrl>https://bitbucket.org/gregsdennis/manatee.trello</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>A REST client provider implementation for Manatee.Trello, backed by RestSharp.</description>
+    <releaseNotes>Initial release.  Extracted from the main Manatee.Trello assembly.</releaseNotes>
+    <copyright />
+    <language>en-US</language>
+    <tags>trello rest manatee</tags>
+    <dependencies>
+      <group targetFramework=".NETFramework4.0">
+        <dependency id="RestSharp" version="104.2.0" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>

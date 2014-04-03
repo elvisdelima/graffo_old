@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Manatee.Json</id>
+    <version>2.2</version>
+    <title>Manatee.Json</title>
+    <authors>gregsdennis</authors>
+    <owners>gregsdennis</owners>
+    <licenseUrl>http://www.apache.org/licenses/LICENSE-2.0.html</licenseUrl>
+    <projectUrl>https://bitbucket.org/gregsdennis/manatee.json</projectUrl>
+    <iconUrl>https://bytebucket.org/gregsdennis/manatee.json/wiki/Resources/Manatee-Json-Logo.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>A fully object-oriented approach to JSON manipulation, validation, and serialization that focuses on modeling the JSON structure rather than mere string parsing.</description>
+    <releaseNotes>See Trello board for this project at https://trello.com/b/bQ7Io1z9/manatee-json.  Feedback is welcome through the board, on StackOverflow, or by emailing littlecrabsolutions@yahoo.com.
+
+If you use this library for a business, you can let the world know on the aforementioned Trello board.
+
+Added Resolver property to serialization options to allow use of a custom type resolver to support DI containers.
+Added a property to JsonValueParseException to identify context of error.
+Implemented PatternProperties and AdditionalProperties for ObjectSchema.
+Implemented equality for all schema types.
+Added beta version of schema generation based on type.</releaseNotes>
+    <language />
+    <tags>json manatee parser serializer</tags>
+    <dependencies>
+      <group targetFramework=".NETFramework4.0">
+        <dependency id="Manatee.StateMachine" version="1.0.0" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>
