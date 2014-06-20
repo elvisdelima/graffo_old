@@ -151,6 +151,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Business\ChartDataSource.cs" />
+    <Compile Include="Business\ChartFactory.cs" />
+    <Compile Include="Business\ChartType.cs" />
+    <Compile Include="Business\HighchartsFactory.cs" />
     <Compile Include="Business\Trello.cs" />
     <Compile Include="Business\TrelloConfiguration.cs" />
     <Compile Include="Business\TrelloDataType.cs" />
@@ -174,6 +178,7 @@
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AppContext.cs" />
+    <Compile Include="Models\Configuration.cs" />
     <Compile Include="Models\Data.cs" />
     <Compile Include="Models\Entity.cs" />
     <Compile Include="Models\Interfaces\IEntity.cs" />
@@ -269,6 +274,7 @@
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>T4MVC.cs</LastGenOutput>
     </None>
+    <Content Include="Views\Trello\Imports.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

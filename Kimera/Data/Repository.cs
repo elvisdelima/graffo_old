@@ -40,7 +40,7 @@ namespace Kimera.Repositories
             var entity = context.Set<T>().Find(id);
             context.Set<T>().Remove(entity);
         }
-
+        
         public long Total { get; private set; }
         public T Last { get; private set; }
         public virtual T Find(long id)
