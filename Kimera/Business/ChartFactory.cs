@@ -41,7 +41,7 @@ namespace Kimera.Business
                 case ChartType.AmountOfCardsFromTheListsByDate:
                 {
                     var result = chartDataSource.AmountOfCardsFromTheListsByDateSeries(trello, boardId);
-                    Chart = highchartsFactory.AmountOfCardsFromTheListsByDateChart(result.Series, result.Date);
+                    Chart = highchartsFactory.AmountOfCardsFromTheListsByDateChart(result.Series, result.Categories);
                     break;
                 }
  

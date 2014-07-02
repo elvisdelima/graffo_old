@@ -57,3 +57,5 @@ C:\Users\Elvis Lima\projetos\Kimera\Kimera\bin\Portable.Licensing.dll
 C:\Users\Elvis Lima\projetos\Kimera\Kimera\bin\T4MVCExtensions.dll
 C:\Users\Elvis Lima\projetos\Kimera\Kimera\bin\TwitterBootstrapMVC.dll
 C:\Users\Elvis Lima\projetos\Kimera\Kimera\bin\Portable.Licensing.xml
+C:\Users\Elvis Lima\projetos\Kimera\Kimera\obj\Debug\Kimera.Migrations.trelloId.resources
+C:\Users\Elvis Lima\projetos\Kimera\Kimera\obj\Debug\Kimera.Migrations.trelloIdstring.resources

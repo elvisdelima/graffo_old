@@ -16,7 +16,7 @@ namespace Kimera.Controllers
         public virtual ActionResult Index()
         {
             var chart = new ChartFactory(ChartType.AmountOfCardsFromTheListsByDate).GetChart();
-   
+
             return View(chart);
         }
     }

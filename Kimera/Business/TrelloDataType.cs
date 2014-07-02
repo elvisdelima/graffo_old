@@ -8,11 +8,11 @@ namespace Kimera.Business
     public enum TrelloDataType
     {
         Organization = 0,
-        Boards,
-        Lists,
-        Cards,
-        CardMembers,
-        CheckLists,
-        CheckItems
+        Board,
+        List,
+        Card,
+        CardMember,
+        CheckList,
+        CheckItem
     }
 }

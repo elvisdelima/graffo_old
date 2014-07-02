@@ -176,6 +176,14 @@
     <Compile Include="Migrations\201403271557124_CreateTableData.Designer.cs">
       <DependentUpon>201403271557124_CreateTableData.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201407012303401_trelloId.cs" />
+    <Compile Include="Migrations\201407012303401_trelloId.Designer.cs">
+      <DependentUpon>201407012303401_trelloId.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201407012306130_trelloId string.cs" />
+    <Compile Include="Migrations\201407012306130_trelloId string.Designer.cs">
+      <DependentUpon>201407012306130_trelloId string.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AppContext.cs" />
     <Compile Include="Models\Configuration.cs" />
@@ -288,6 +296,12 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201403271557124_CreateTableData.resx">
       <DependentUpon>201403271557124_CreateTableData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201407012303401_trelloId.resx">
+      <DependentUpon>201407012303401_trelloId.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201407012306130_trelloId string.resx">
+      <DependentUpon>201407012306130_trelloId string.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

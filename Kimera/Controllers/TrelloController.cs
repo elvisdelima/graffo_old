@@ -44,7 +44,8 @@ namespace Kimera.Controllers
 
             dataBoards.Date = Date;
             dataBoards.Json = jsonBoard;
-            dataBoards.DataType = TrelloDataType.Boards;
+            dataBoards.DataType = TrelloDataType.Board;
+            dataBoards.TrelloId = board.Id;
          
             repo.Add(dataBoards);
             repo.Save();
@@ -55,8 +56,9 @@ namespace Kimera.Controllers
 
                 dataLists.Date = Date;
                 dataLists.Json = jsonList;
-                dataLists.DataType = TrelloDataType.Lists;
+                dataLists.DataType = TrelloDataType.List;
                 dataLists.DataParentId = dataBoards.Id;
+                dataLists.TrelloId = list.Id;
 
                 repo.Add(dataLists);
                 repo.Save();
@@ -67,8 +69,9 @@ namespace Kimera.Controllers
 
                     dataCards.Date = Date;
                     dataCards.Json = jsonCard;
-                    dataCards.DataType = TrelloDataType.Cards;
+                    dataCards.DataType = TrelloDataType.Card;
                     dataCards.DataParentId = dataLists.Id;
+                    dataCards.TrelloId = card.Id;
 
                     repo.Add(dataCards);
                     repo.Save();

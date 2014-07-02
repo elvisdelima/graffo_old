@@ -16,7 +16,7 @@
             </tr>
         </thead>
         <tbody>
-            @foreach (var data in Model.Where(d => d.DataType == TrelloDataType.Boards))
+            @foreach (var data in Model.Where(d => d.DataType == TrelloDataType.Board))
             {
                 <tr>
                     <td class="span1">@data.Date.ToShortDateString()</td>
@@ -39,7 +39,7 @@
             </tr>
         </thead>
         <tbody>
-            @foreach (var data in Model.Where(d => d.DataType == TrelloDataType.Lists))
+            @foreach (var data in Model.Where(d => d.DataType == TrelloDataType.List))
             {
                 <tr>
                     <td class="span1">@data.Date.ToShortDateString()</td>
@@ -62,7 +62,7 @@
             </tr>
         </thead>
         <tbody>
-            @foreach (var data in Model.Where(d => d.DataType == TrelloDataType.Cards))
+            @foreach (var data in Model.Where(d => d.DataType == TrelloDataType.Card))
             {
                 <tr>
                     <td class="span1">@data.Date.ToShortDateString()</td>

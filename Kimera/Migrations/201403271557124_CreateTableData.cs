@@ -15,7 +15,7 @@ namespace Kimera.Migrations
                         Date = c.DateTime(nullable: false),
                         DataType = c.Int(nullable: false),
                         Json = c.String(),
-                        DataParentId = c.Int(nullable: false),
+                        DataParentId = c.Int(nullable: false)
                     })
                 .PrimaryKey(t => t.Id);
             
