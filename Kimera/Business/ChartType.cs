@@ -4,6 +4,5 @@
     {
         AmountOfCardsByList,
         AmountOfCardsFromTheListsByDate 
-
     }
 }
